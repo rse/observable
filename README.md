@@ -1,6 +1,4 @@
 
-<img src="https://raw.githubusercontent.com/traits-ts/core/refs/heads/master/etc/logo.svg" width="200" style="float: right" align="right" alt=""/>
-
 @rse/observable
 ===============
 
