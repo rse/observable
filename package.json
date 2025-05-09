@@ -1,0 +1,61 @@
+{
+    "name":                              "@rse/observable",
+    "publishConfig":                     { "access": "public" },
+    "description":                       "Observables Objects for TypeScript",
+    "keywords":                          [ "observable", "observer" ],
+    "homepage":                          "https://github.com/rse/observable",
+    "repository":                        { "url": "git+https://github.com/rse/observable.git", "type": "git" },
+    "bugs":                              { "url": "http://github.com/rse/observable/issues" },
+    "version":                           "0.9.0",
+    "license":                           "MIT",
+    "author": {
+        "name":                          "Dr. Ralf S. Engelschall",
+        "email":                         "rse@engelschall.com",
+        "url":                           "http://engelschall.com"
+    },
+    "types":                             "./dst/observable.d.ts",
+    "module":                            "./dst/observable.esm.js",
+    "main":                              "./dst/observable.cjs.js",
+    "browser":                           "./dst/observable.umd.js",
+    "exports": {
+        ".": {
+            "import":                    { "types": "./dst/observable.d.ts", "default": "./dst/observable.esm.js" },
+            "require":                   { "types": "./dst/observable.d.ts", "default": "./dst/observable.cjs.js" }
+        }
+    },
+    "devDependencies": {
+        "eslint":                        "9.26.0",
+        "@eslint/js":                    "9.26.0",
+        "eslint-plugin-n":               "17.18.0",
+        "eslint-plugin-promise":         "7.2.1",
+        "eslint-plugin-import":          "2.31.0",
+        "eslint-plugin-mocha":           "11.0.0",
+        "eslint-plugin-chai-expect":     "3.1.0",
+        "neostandard":                   "0.12.1",
+        "globals":                       "16.1.0",
+
+        "vite":                          "6.3.5",
+        "vite-plugin-singlefile":        "2.2.0",
+        "vite-plugin-node-polyfills":    "0.23.0",
+        "@wroud/vite-plugin-tsc":        "0.11.6",
+        "typescript":                    "5.8.3",
+        "tsx":                           "4.19.4",
+        "mocha":                         "11.2.2",
+        "chai":                          "5.2.0",
+        "sinon-chai":                    "4.0.0",
+        "sinon":                         "20.0.0",
+
+        "nps":                           "5.10.0",
+        "nodemon":                       "3.1.10",
+        "shx":                           "0.4.0",
+
+        "@types/node":                   "22.15.17",
+        "@types/chai":                   "5.2.2",
+        "@types/mocha":                  "10.0.10",
+        "@types/sinon":                  "17.0.4",
+        "@types/sinon-chai":             "4.0.0"
+    },
+    "scripts": {
+        "start":                         "nps -c etc/nps.yaml"
+    }
+}
