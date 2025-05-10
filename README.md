@@ -200,6 +200,16 @@ Support
 The work on this Open Source Software was financially supported by the
 german non-profit organisation *SEA Software Engineering Academy gGmbH*.
 
+See Also
+--------
+
+- [mobx](https://www.npmjs.com/package/mobx)
+- [zen-observable](https://www.npmjs.com/package/zen-observable)
+- [light-observable](https://www.npmjs.com/package/light-observable)
+- [observable-slim](https://www.npmjs.com/package/observable-slim)
+- [micro-observer](https://www.npmjs.com/package/micro-observer)
+- [@cadolabs/observable](https://www.npmjs.com/package/@cadolabs/observable)
+
 License
 -------
 
